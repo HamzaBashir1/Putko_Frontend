@@ -1,5 +1,6 @@
 'use client';
 
+import Link from 'next/link';
 import React, { useState } from 'react';
 import { BiSearch } from "react-icons/bi";
 import { FaHeart } from 'react-icons/fa';
@@ -47,9 +48,11 @@ const Hero = ({ locationLabel, checkInLabel, checkOutLabel, guestLabel, searchMo
             <img src="/putko.png" className="h-8" alt="Logo" />
           </a>
           <div className="flex items-center space-x-4">
+          <Link href="/login">
             <button className="bg-[#58CAAA] text-white px-6 py-2 rounded-lg hover:bg-[#3abd98] transition">
               Log in
             </button>
+          </Link>
             <FaHeart className="text-white text-xl hover:text-gray-300 cursor-pointer" />
             <button
               onClick={toggleMenu}

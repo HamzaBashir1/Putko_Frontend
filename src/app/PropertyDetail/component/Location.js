@@ -5,7 +5,7 @@ import location from '../../../../public/location.png';
 
 const Location = () => {
   return (
-    <div className='rounded-lg p-6 mt-5 bg-white mr-[440px] ml-[18px]'>
+    <div className='rounded-lg p-6 mt-5 bg-white lg:mr-[440px] lg:ml-[18px]'>
       <h1 className='text-xl md:text-2xl font-bold mb-2'>Location</h1>
       <p className=' p-2 rounded-md mb-4'>
         Slovakia / Martin district / Bela - Dulice

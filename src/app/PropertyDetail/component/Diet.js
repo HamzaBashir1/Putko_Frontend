@@ -4,7 +4,7 @@ const Diet = () => {
  
   return (
     <div>
-    <div className=" bg-white rounded-lg shadow-md sm:p-8  p-6 mt-5  mr-[440px] ml-[18px] ">
+    <div className=" bg-white rounded-lg shadow-md sm:p-8  p-6 mt-5  lg:mr-[440px] lg:ml-[18px] ">
     {/* Title Section */}
     <h2 className="mb-4 text-xl font-bold">Diet</h2>
     

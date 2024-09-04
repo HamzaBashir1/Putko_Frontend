@@ -7,11 +7,14 @@ import Date from './component/Date';
 import Photo from './component/Photo';
 import Information from './component/Information'
 import ReservationCard from './component/ReservationCard'
+import Navbar from './component/Navbar';
 
 const Page = () => {
   
 
   return (
+    <div>
+      <Navbar/>
     <div className='bg-[#f8f8f8]'>
       <Heading />
       <Photo />
@@ -28,6 +31,7 @@ const Page = () => {
             
         </div>
       </div> */}
+    </div>
     </div>
   );
 }

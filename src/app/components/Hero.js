@@ -43,7 +43,7 @@ const Hero = ({ locationLabel, checkInLabel, checkOutLabel, guestLabel, searchMo
     <div className="relative">
       <nav className="border-gray-200 bg-transparent dark:bg-transparent dark:border-gray-700 absolute top-0 left-0 w-full z-50">
         <div className="flex flex-wrap items-center justify-between mx-4 md:mx-20 p-4">
-          <a href="#" className="flex items-center space-x-3 rtl:space-x-reverse">
+          <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
             <img src="/putko.png" className="h-8" alt="Logo" />
           </a>
           <div className="flex items-center space-x-4">

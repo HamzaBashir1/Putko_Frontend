@@ -10,7 +10,7 @@ const Title = () => {
   };
 
   return (
-    <div className='pt-20 lg:mx-20 mx-4'>
+    <div className='pt-40 lg:mx-20 mx-4'>
       <h1 className='font-bold text-[#292A34] text-3xl mb-2'>Accommodation</h1>
       <p className='text-[#54555D] text-base mb-10'>
         See accommodation for rent at the best price directly from the accommodation provider.

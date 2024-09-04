@@ -1,6 +1,6 @@
 import React from 'react'
 import Title from './component/Title'
-import CardSection from '../components/CardSection'
+import CardSection from './component/CardSection'
 import Discount from './component/Discount'
 import Section from './component/Section'
 import Pagination from './component/Pagination'

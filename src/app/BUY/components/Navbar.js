@@ -11,10 +11,10 @@ const Navbar = () => {
 
   return (
     <div>
-      <nav className="bg-white border-b border-gray-200 dark:bg-gray-800 dark:border-gray-700 fixed top-0 left-0 w-full z-50">
+      <nav className="bg-white border-gray-200 dark:bg-gray-800 dark:border-gray-700 fixed top-0 left-0 w-full z-50">
         <div className="flex flex-wrap items-center justify-between mx-4 md:mx-20 p-4">
           {/* Logo */}
-          <a href="#" className="flex items-center space-x-3 rtl:space-x-reverse">
+          <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
             <img src="/putko.png" className="h-8" alt="Logo" />
           </a>
 

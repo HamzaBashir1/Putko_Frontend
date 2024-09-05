@@ -1,11 +1,11 @@
-import React from 'react'
-import { BiGlobe } from 'react-icons/bi'
-import { BsMailbox, BsReply, BsCheck } from 'react-icons/bs' // BsTick is not a valid icon, replaced with BsCheck
-import { CiLock } from 'react-icons/ci'
+import React from 'react';
+import { BiGlobe } from 'react-icons/bi';
+import { BsMailbox, BsReply, BsCheck } from 'react-icons/bs';
+import { CiLock } from 'react-icons/ci';
 
 const Information = () => {
   return (
-    <div className='rounded-lg p-6 mt-5 bg-white lg:mr-[440px] lg:ml-[18px] '>
+    <div className='rounded-lg p-6 mt-5 bg-white lg:mr-[440px] lg:ml-[18px]'>
       <h1 className='font-bold text-xl mb-4'>Information about accommodation</h1>
       <p className='mb-4'>
         The entire object | <span>8 persons</span> | 3 bedrooms | 3 bathrooms
@@ -25,7 +25,7 @@ const Information = () => {
 
       <hr className='my-12 h-0.5 border-t-0 bg-neutral-100 dark:bg-white/10' />
 
-      <div className='grid grid-cols-2 gap-4 mb-12'>
+      <div className='grid grid-cols-1 sm:grid-cols-2 gap-4 mb-12'>
         <div className='bg-[#E7EAEE] p-5'>
           <h1 className='font-bold mb-2'>Equipment and services</h1>
           <div className='flex items-center mb-2'>
@@ -128,8 +128,8 @@ const Information = () => {
 
       <hr className='my-12 h-0.5 border-t-0 bg-neutral-100 dark:bg-white/10' />
 
-      <div className='flex justify-between items-center'>
-        <div className='flex items-center'>
+      <div className='flex flex-col sm:flex-row justify-between items-center'>
+        <div className='flex items-center mb-4 sm:mb-0'>
           <img src='/map' alt='Map' className='rounded-full h-12 w-12 mr-4' />
           <div>
             <h1 className='font-bold'>"Villa LIMACO Jasensk</h1>
@@ -145,7 +145,7 @@ const Information = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Information
+export default Information;

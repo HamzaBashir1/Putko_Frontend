@@ -1,9 +1,12 @@
 "use client"
 import React from 'react'
-import SubscriptionCard from './SubscriptionCard'
-
+import SubscriptionCard from './ProfessionalCard'
+import ProfessionalCard from './ProfessionalCard';
+import StandardCard from './StandardCard';
+import BasicCard from './BasicCard'
 
 function SubscriptionPriceList() {
+
   return (
     <div>
      <div className="bg-gray-50 py-12">
@@ -22,7 +25,7 @@ function SubscriptionPriceList() {
     
 
       {/* Toggle Buttons */}
-      <div className="flex flex-col lg:flex-row justify-center space-x-4 mx-5 mb-10">
+      <div className="flex flex-col lg:flex-row justify-center gap-2 mx-5 mb-10">
         <button className="bg-white  border-black border-[2px] rounded-[10px]  px-4 py-2  shadow-sm focus:outline-none hover:bg-gray-100 text-[16px]">
           Cottages, wooden houses, log<br/>cabins
         </button>
@@ -32,8 +35,20 @@ function SubscriptionPriceList() {
       </div>
 
      {/* Subscription Cards */}
-      <SubscriptionCard/>
+     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 px-4 md:px-8 w-full xl:px-32">
+      <div className="max-w-lg w-full h-full">
+        <ProfessionalCard />
+      </div>
+      <div className="max-w-lg w-full h-full">
+        <StandardCard />
+      </div>
+      <div className="max-w-lg w-full h-full">
+        <BasicCard />
+      </div>
+    </div>
 
+      
+      
     </div> 
     </div>
   )
